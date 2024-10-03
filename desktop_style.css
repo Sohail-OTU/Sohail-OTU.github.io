@@ -1,0 +1,87 @@
+@import "https://fonts.googleapis.com/css?family=Playfair+Display&display=swap";
+
+/*
+The color scheme I am using are these five colours:
+#ffffff, #242424, #5C7C89, #1F4959, #011425
+*/
+
+
+#_body {
+    background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #5C7C89 60%, #011425 100%), 
+            linear-gradient(135deg, #242424 0%, #1F4959 100%), 
+            linear-gradient(45deg, #011425 0%, #242424 100%);
+    background-blend-mode: overlay;
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    position:relative;
+    background-color: #5e5e5e36;
+    padding: 4%;
+    margin: 0%;
+    border-radius: 20px;
+}
+
+.left_logo {
+    float: left;
+    position: relative;
+    filter: brightness(1.4);
+    margin: -2.5%;
+}
+
+.left_logo img {
+    border-radius: 15px;
+    display: block;
+}
+
+.right_side {
+    position: relative;
+    float:right;
+    margin-top: -2.5%;
+    margin-bottom: -2.8%;
+    margin-right: -3%;
+    width: 30%;
+    height: 30%;
+    padding: 1%;
+}
+
+.navBar {
+    
+}
+
+ul {
+    list-style-type: none;
+    background-color:#5c7c895c;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 0%;
+    text-align: center;
+    text-wrap: balance;
+
+}
+
+li {
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    margin-left: 3%
+}
+
+li a {
+    text-decoration: none;
+    color: #bbccff;
+    margin: 2%;
+}
+
+li a:hover {
+    background: #2424244b;
+    padding: 15%;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#homepage_body {
+        
+}
