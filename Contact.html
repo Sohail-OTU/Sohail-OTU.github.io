@@ -24,20 +24,22 @@
         <div id = "contact_form_background">
             <div id = "contact_form">
                 <form action = "/submit-form" method="post">
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" name="first_name" required/>
+                    <label id = "first_name_label" for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required placeholder="Enter your First Name..."/>
 
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" id="last_name" name="last_name" required/>
+                    <label id="last_name_label" for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required placeholder="Enter your Last Name..."/>
                     
-                    <label for="email_">Email:</label>
-                    <input type="email" id="email_" name="email_" required/>
+                    <label id="email_label" for="email_">Email:</label>
+                    <input type="email" id="email_" name="email_" required placeholder="Email..."/>
 
-                    <label for="phone_">Phone:</label>
-                    <input type="tel" id="phone_" name="phone_" required/>
+                    <label id="phone_label" for="phone_">Phone:</label>
+                    <input type="tel" id="phone_" name="phone_" required placeholder="Phone..."/>
 
-                    <label for="comments_">Comments:</label>
-                    <input type="text" id="comments_" name="comments_" required/>
+                    <label id="comments_label" for="comments_">Comments:</label>
+                    <textarea type="text" id="comments_" name="comments_" required placeholder="Comments..." wrap="soft"></textarea>
+                
+                    <input id="submit_" type="submit" value="submit"/>
                 </form>
             </div>
         </div>
