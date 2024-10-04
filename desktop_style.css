@@ -12,7 +12,7 @@ The color scheme I am using are these five colours:
             linear-gradient(45deg, #011425 0%, #242424 100%);
     background-blend-mode: overlay;
     position: relative;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 ._body::-webkit-scrollbar {
@@ -48,7 +48,7 @@ header {
 .left_logo {
     float: left;
     position: relative;
-    filter: brightness(1.4);
+    filter: brightness(1);
     margin: -2.5%;
 }
 
@@ -135,6 +135,56 @@ li a:hover {
 footer {
     position: relative;
     background-color: rgba(0, 0, 0, 0.364);
-    margin-top: 15%;
-    padding: 7%;
+    margin-top: 12%;
+    display:flex;
+    justify-content: space-between;
+}
+
+#left_side_footer, #middle_side_footer, #right_side_footer {
+    position: relative;
+    float:left;
+    flex-basis: 30%; 
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+#middle_side_footer {
+    text-align: center;
+}
+
+#left_side_footer a, #middle_side_footer a {
+    text-decoration:underline;
+    color: #FFFFFFc2;
+}
+
+#right_side_footer h3 {
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*This marks the end of the code for the homepage*/
+
+#about_content_background {
+    background-color: rgba(0, 0, 0, 0.364);
+    border-radius: 20px;
+    padding-bottom: 40%;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#about_content_img {
+    height: 10%;
+    width: 30%;
+}
+
+#about_content_left img {
+    object-fit: fill;
+    float:left;
+    position: relative;
+    border-radius: 20px;
+    padding: 1%;
+    margin-top: 10%;
+    margin-left: 5%;
 }
