@@ -2,14 +2,14 @@
 
 /*
 The color scheme I am using are these five colours:
-#ffffff, #242424, #5C7C89, #1F4959, #011425
+#ffffff, #6A8DA7, #022B44, #2F3F4F, #1E3A52
 */
 
 
 ._body {
-    background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #5C7C89 60%, #011425 100%), 
-            linear-gradient(135deg, #242424 0%, #1F4959 100%), 
-            linear-gradient(45deg, #011425 0%, #242424 100%);
+    background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #6A8DA7 60%, #022B44 100%), 
+            linear-gradient(135deg, #2F3F4F 0%, #1E3A52 100%), 
+            linear-gradient(45deg, #022B44 0%, #2F3F4F 100%);
     background-blend-mode: overlay;
     position: relative;
     overflow-x: hidden;
@@ -37,12 +37,12 @@ The color scheme I am using are these five colours:
 
 header {
     margin-top: -1%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
     position:relative;
     background-color: rgba(0, 0, 0, 0.364);
     padding: 4%;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .left_logo {
@@ -138,6 +138,10 @@ footer {
     margin-top: 12%;
     display:flex;
     justify-content: space-between;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: -1%;
+    border-radius: 30px;
 }
 
 #left_side_footer, #middle_side_footer, #right_side_footer {
@@ -167,24 +171,49 @@ footer {
 #about_content_background {
     background-color: rgba(0, 0, 0, 0.364);
     border-radius: 20px;
-    padding-bottom: 40%;
+    padding-bottom: 4%;
     position: relative;
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-#about_content_img {
-    height: 10%;
-    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #about_content_left img {
-    object-fit: fill;
+    object-fit:cover;
     float:left;
     position: relative;
     border-radius: 20px;
     padding: 1%;
     margin-top: 10%;
     margin-left: 5%;
+    filter: brightness(0.8);
+}
+
+#about_content_right {
+    float: right;
+    position: relative;
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin-left: 1%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+}
+
+#about_content_right p {
+    font-size: 100%;
+}
+
+#about_content_video_box {
+    position: relative;
+    background: rgba(0, 0, 0, 0.347);
+    padding: 10%;
+    padding-bottom: 25%;
+    width: 60%;
+    left: 10%;
+    border-radius: 20px;
+    margin-top: 3%;
 }
