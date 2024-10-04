@@ -5,6 +5,7 @@ The color scheme I am using are these five colours:
 #ffffff, #6A8DA7, #022B44, #2F3F4F, #1E3A52
 */
 
+/*GENERAL CSS + HOMEPAGE*/
 
 ._body {
     background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #6A8DA7 60%, #022B44 100%), 
@@ -167,6 +168,7 @@ footer {
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*This marks the end of the code for the homepage*/
+/*ABOUT ME PAGE*/
 
 #about_content_background {
     background-color: rgba(0, 0, 0, 0.364);
@@ -210,10 +212,50 @@ footer {
 #about_content_video_box {
     position: relative;
     background: rgba(0, 0, 0, 0.347);
-    padding: 10%;
-    padding-bottom: 25%;
+    padding: 5%;
     width: 60%;
-    left: 10%;
+    left: 15%;
     border-radius: 20px;
     margin-top: 3%;
 }
+
+#about_content_video {
+    margin-right: 4%;
+}
+
+#about_content_video video {
+    border-radius: 20px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*This marks the end of the code for the About Me Page*/
+
+
+
+/*PROJECTS PAGE*/
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*This marks the end of the code for the Projects Page*/
+
+
+
+/*CONTACT ME PAGE*/
+#contact_form_background {
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 10%;
+    padding-bottom: 50%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#contact_form {
+    background-color: #ffffff83;
+    padding: 10%;
+    border-radius: 20px;
+    padding-bottom: 80%;
+    margin-bottom: -60%;
+    margin-top: -5%;
+}
+
