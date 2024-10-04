@@ -243,25 +243,32 @@ footer {
 #contact_form_background {
     background-color: rgba(0, 0, 0, 0.356);
     padding: 10%;
-    padding-bottom: 50%;
+    padding-bottom: 30%;
     border-radius: 20px;
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: -4%;
 }
 
 #contact_form {
     background-color: #ffffff83;
     padding: 10%;
     border-radius: 20px;
-    padding-bottom: 80%;
     margin-bottom: -60%;
-    margin-top: -5%;
+    margin-top: -10%;
+    margin-right: -8%;
+    margin-left: -8%;
+    border: 1px solid black;
 }
 
 form {
     display:flex;
     flex-direction:column;
+}
+
+form h2 {
+    margin-top: -5%;
 }
 
 form input {
@@ -278,21 +285,21 @@ form input {
 
 input {
     background-color:#556172;
-    border-style: 1px solid black;
     border-radius: 10px;
     padding-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #FFFFFFd3;
     padding-top: 1%;
+    border: 1px solid black;
 }
 
 textarea {
     background-color:#556172;
-    border-style: 1px solid black;
     border-radius: 10px;
     padding-bottom: 30%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffffd3;
+    border: 1px solid black;
 }
 
 textarea::placeholder {
@@ -309,4 +316,9 @@ input::placeholder {
 input:focus, textarea:focus {
     outline:none;
     box-shadow: none;
+}
+
+label {
+    color: rgb(24, 37, 49);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
