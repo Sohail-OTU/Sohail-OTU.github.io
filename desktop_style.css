@@ -236,7 +236,7 @@ footer {
 
 .projects_content_container {
     background-color:rgba(0, 0, 0, 0.347);
-    padding: 8%;
+    padding: 5%;
     margin-top: 8%;
     margin-left: 5%;
     margin-right: 5%;
@@ -272,13 +272,27 @@ footer {
     position:relative;
     display: flex;
     flex-direction: column;
-    padding-inline-end: 3%;
+    padding-inline-end: 10%;
     flex: none;
     max-width: 50%;
 }
 
+.projects__ img {
+    border-radius: 10px;
+    margin-bottom: 8%;
+    vertical-align: top;
+}
+
+.projects__ a {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+}
+
 .projects__ hr {
     width: 100%;
+    margin-top: 2%;
+
 }
 
 .projects__ h3 {
