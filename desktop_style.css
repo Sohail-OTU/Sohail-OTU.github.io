@@ -234,6 +234,62 @@ footer {
 
 /*PROJECTS PAGE*/
 
+.projects_content_container {
+    background-color:rgba(0, 0, 0, 0.347);
+    padding: 8%;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: -3%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.projects_content_container::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #5C7C89;
+  }
+  
+  .projects_content_container::-webkit-scrollbar-thumb {
+    background-color: #1F4959;
+    border-radius: 10px;
+  }
+  
+  .projects_content_container::-webkit-scrollbar-thumb:hover {
+    background-color: #618796;
+  }
+  
+  .projects_content_container::-webkit-scrollbar-track {
+    background-color: #242424;
+    border-radius: 10px;
+  }
+
+.projects__ {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    padding-inline-end: 3%;
+    flex: none;
+    max-width: 50%;
+}
+
+.projects__ hr {
+    width: 100%;
+}
+
+.projects__ h3 {
+    color: #ffffff;
+}
+
+.projects__ p {
+    font-size: 90%;
+    color: #ffffffcc;
+}
+
 /*--------------------------------------------------------------------------------------------------------*/
 /*This marks the end of the code for the Projects Page*/
 
