@@ -24,7 +24,8 @@
         </header>
         <div id = "contact_form_background">
             <div id = "contact_form">
-                <form action = "/submit" method="post">
+                <form id="contactForm" action="https://script.google.com/macros/s/AKfycby7p0H4n41ojjncmdq9kuCh2Hq2CgwBRHzJ-L_kn1SIVbIeJ9vZlQEC0cgdnlnQJqwX1w/exec" 
+                method="post" onsubmit="submitForm(event)">
                     <h2 style="text-align: center; color:rgb(24, 37, 49); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                     Contact Form<hr>
                     </h2>
@@ -80,5 +81,27 @@
                 </p>
             </div>
         </footer>
+        <script>
+            function submitForm(event) {
+              event.preventDefault();
+              const form = document.getElementById('contactForm');
+              const data = {
+                first_name: form.first_name.value,
+                last_name: form.last_name.value,
+                email_: form.email_.value,
+                phone_: form.phone_.value,
+                comments_: form.comments_.value
+              };
+          
+              fetch(form.action, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+              })
+              .then(() => alert('Your message has been sent!'))
+              .catch(error => console.error('Error!', error.message));
+            }
+          </script>          
     </body>
 </html>
