@@ -92,7 +92,9 @@
                 phone_: form.phone_.value,
                 comments_: form.comments_.value
               };
-          
+
+            console.log(data);
+
               fetch(form.action, {
                 method: 'POST',
                 mode: 'no-cors',

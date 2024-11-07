@@ -346,13 +346,27 @@ form input {
 }
 
 #submit_ {
-    margin-top: 10%;
-    padding-top: 3%;
-    margin-left: 30%;
-    margin-right: 30%;
-    font-size: 120%;
-
-}
+    background-color: #6A8DA7; /* Button color from your color scheme */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    margin-top: 4%;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  #submit_:hover {
+    background-color: #2F3F4F; /* Slightly darker shade on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  #submit_:active {
+    background-color: #022B44; /* Even darker shade when clicked */
+    transform: scale(0.98); /* Slightly shrink on click */
+  }
+  
 
 input {
     background-color:#556172;
